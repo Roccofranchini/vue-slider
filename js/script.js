@@ -34,7 +34,7 @@ const root = new Vue({
 			if (this.currentIndex === 0) {
 				this.currentIndex = this.images.length - 1;
 			} else {
-				this.currentIndex++;
+				this.currentIndex--;
 			}
 		},
 		setCurrentIndex(newIndex) {
